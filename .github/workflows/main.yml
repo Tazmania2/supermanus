@@ -1,0 +1,14 @@
+name: Unzip File
+
+on:
+  workflow_dispatch: # This allows manual triggering of the workflow.
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Unzip file
+        run: unzip superloot_website.zip -d extracted_files
