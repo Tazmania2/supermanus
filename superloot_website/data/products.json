@@ -1,0 +1,38 @@
+[
+  {
+    "id": "poe2_divine",
+    "name": "Divine Orb",
+    "section": "Path of Exile 2",
+    "price": 0.00, 
+    "image": "", 
+    "whatsapp": "+5511997387181",
+    "discord": "https://discord.gg/fnNEM6tR"
+  },
+  {
+    "id": "poe2_exalted",
+    "name": "Exalted Orb",
+    "section": "Path of Exile 2",
+    "price": 0.00,
+    "image": "",
+    "whatsapp": "+5511997387181",
+    "discord": "https://discord.gg/fnNEM6tR"
+  },
+  {
+    "id": "ragnarok_zeny",
+    "name": "Zeny",
+    "section": "Ragnarok",
+    "price": 0.00,
+    "image": "",
+    "whatsapp": "+5511997387181",
+    "discord": "https://discord.gg/fnNEM6tR"
+  },
+  {
+    "id": "dofus_kamas",
+    "name": "Kamas",
+    "section": "Dofus",
+    "price": 0.00,
+    "image": "",
+    "whatsapp": "+5511997387181",
+    "discord": "https://discord.gg/fnNEM6tR"
+  }
+]

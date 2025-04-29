@@ -1,0 +1,306 @@
+/* Header Component */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #161625;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #8e44ad;
+    color: white;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-section .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #8e44ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.user-section .balance {
+    background-color: #2c2c54;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #f1c40f;
+    display: flex;
+    align-items: center;
+}
+
+.user-section .balance::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* Wallet Section */
+.wallet-section {
+    background-color: #2c2c54;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.wallet-info p {
+    margin-bottom: 20px;
+    color: #bdc3c7;
+}
+
+.wallet-balance {
+    display: flex;
+    align-items: center;
+}
+
+.wallet-balance .coin {
+    width: 40px;
+    height: 40px;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.wallet-balance .amount {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.wallet-balance .currency {
+    font-size: 1rem;
+    color: #bdc3c7;
+    margin-left: 10px;
+}
+
+.add-funds-btn {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.add-funds-btn:hover {
+    background-color: #9b59b6;
+}
+
+/* Search Bar */
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-bar input {
+    background-color: #2c2c54;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    width: 250px;
+}
+
+.search-bar input::placeholder {
+    color: #7f8c8d;
+}
+
+/* Game-specific Styling */
+.poe-theme {
+    /* Path of Exile specific elements */
+    --game-accent-color: #c0392b;
+}
+
+.ragnarok-theme {
+    /* Ragnarok specific elements */
+    --game-accent-color: #2980b9;
+}
+
+.dofus-theme {
+    /* Dofus specific elements */
+    --game-accent-color: #27ae60;
+}
+
+/* Footer Component */
+footer {
+    background-color: #161625;
+    padding: 30px 40px;
+    margin-top: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.footer-logo img {
+    height: 30px;
+}
+
+.footer-links h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #bdc3c7;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #bdc3c7;
+    font-size: 1.5rem;
+}
+
+.footer-social a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav li {
+        margin: 5px;
+    }
+    
+    .user-section {
+        margin-top: 15px;
+    }
+    
+    .wallet-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .wallet-balance {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-links {
+        margin-top: 20px;
+    }
+}
