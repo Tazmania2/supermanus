@@ -35,8 +35,8 @@ jobs:
         
       - name: Commit das alterações
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "tcrabelo@gmail.comm"
+          git config --local user.name "Tazmania2"
           git add superloot_website/
           git commit -m "Descompactar arquivos do site superloot.gg" || echo "Nenhuma alteração para commit"
           git push
